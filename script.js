@@ -12,7 +12,6 @@ const getSum = () => {
     console.log(total)
     const lastElemet=document.createElement("tr");
     lastElemet.innerHTML=`
-        <td class="item">Total</td>
         <td class="price">${total}</td>`
     document.getElementsByTagName("table")[0].appendChild(lastElemet);
 };
